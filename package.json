@@ -4,6 +4,8 @@
   "description": "configure npm",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build",
     "test": "jest"
   },
   "repository": {
@@ -11,5 +13,13 @@
     "url": "https://github.com/shital-konduskar/Namaste-React.git"
   },
   "author": "Shital",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }
