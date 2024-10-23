@@ -3,7 +3,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: floralwhite;
+    background-color: #e3dfd6;
 }
 
 .logo-container{
@@ -17,7 +17,7 @@
 
 .nav-container{
     /* margin-right: 150px; */
-    width: 50%;
+    width: 53%;
     display: flex;
     align-items: center;
 }
@@ -28,11 +28,11 @@
 }
 
 .nav-container > .nav-items > li{
-    padding: 0 20px;
+    /* padding: 0 20px; */
     margin: 0 10px;   
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-    font-weight: 500;
+    /* font-size: large; */
+    /* font-weight: 500; */
     cursor: pointer;
 }
 
@@ -40,16 +40,16 @@
     margin: 20px;
 }
 
-.restaurant-container{
+.restaurant-container, .shimmer-container{
    display: flex;
    flex-wrap: wrap;
    margin: 20px;
 }
 
 .restaurant-card{
-    width: 200px;
+    width: 189px;
     height: 229px;
-   background-color: #fdfaf3;
+   background-color: #e3dfd6;
     margin: 5px;
     padding: 8px;
     overflow-wrap: break-word;
@@ -70,7 +70,91 @@
 }
 
 .filter-btn{
-    padding: 15px;
-    margin: 20px 20px 10px 30px;
+    padding: 10px;
+    margin: 10px 20px 10px 30px;
     cursor: pointer;
+}
+.search-box{
+    margin: 10px 20px 10px 30px;
+}
+
+.search-text , .search-btn{
+    height: 60%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.shimmer-card{
+    width: 189px;
+    height: 229px;
+   background-color: #e3dfd6;
+}
+
+.login-btn{
+    width: 160%;
+    height: 160%;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.log-in{
+    background-color: lightgray;
+}
+
+.filter{
+    display: flex;
+}
+
+.menu{
+    width: 60%;
+    margin: auto;
+}
+
+.menu-info{
+    border-radius: 20px;
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 8px 16px 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-info > h3 , .menu-info > .menu-info-cuisine , .menu-info > h6{
+    margin: 0 0 5px 0;
+}
+
+.menu-info-cuisine{
+    color: tomato;
+}
+
+.item-container{
+    display: flex;
+}
+
+.item-info{
+    width: 80%;
+}
+
+.item-info > h3, .item-info > h4{
+    margin: 0 0 5px 0;
+}
+
+.item-image{
+    width: 20%;
+}
+
+.item-image > img{
+    width: 100%;
+}
+
+.res-card-link{
+    text-decoration: none;
+    color: black;
+}
+
+.user-container{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
 }
